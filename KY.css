@@ -1,0 +1,93 @@
+<style>
+			
+			.col-sm-4{
+					height:400px;
+					margin:12px 0px 12px 0px;
+					
+					padding:8px;
+					position:relative;
+					}
+			
+			.mttr{position:absolute;
+				bottom:0;
+				left:20px;
+				margin:auto;
+				opacity:0;
+				transition: opacity 0.5s;}
+		
+			.col-sm-4:hover .mttr{opacity:1;}
+			.cstm-tab{
+					height:400px;
+					padding:10px;
+					}
+			.col-sm-3{
+					height:200px;
+					margin:12px 0px 12px 0px;
+					
+					padding:8px;
+					}
+			.cstm-tab1{
+					height:350px;
+					padding:10px;
+					margin:0px 0px 30px 0px;
+					}
+			a{color:rgb(100,100,100);}
+			a:hover{text-decoration:none;}
+			.fttr-list{
+			list-style-type:none;}
+			.fttr-list-cont{display:none;}
+			
+			hr{border-top:1px solid rgb(150,150,150);}
+			.hdr-box{margin:375px 10px auto 10px}
+			.ctr h4{opacity:1;transition:opacity 0.5s;}
+			.ctr:hover h4{opacity:0;display:none;}
+			.cs4{margin:12px 0px 12px 0px;
+					transition:margin-top 0.5s;}
+			.cs4:hover{
+					margin-top:4px;}
+	
+			.gly{margin-top:100px;opacity:0;transition:opacity 0.5s;}
+			.ctr:hover .gly{opacity:1;}
+			.gly a:hover{color:white;text-decoration:none;}
+			.gly a{color:white}
+			
+			.pc-nav{display:none}
+			.mobile-nav{display:block;}
+			.ctr:hover .list-inline,.tab-content{display:block;}
+			.list-inline{display:none;}
+			.list-inline a{
+				display:block;
+				text-decoration:none;
+				margin:20px;
+				color:white;
+				}
+			.list-inline a:hover{display:block;
+				text-decoration:none;
+				
+				color:white;
+				}
+			
+			.list-inline li:hover{background: -webkit-linear-gradient(rgb(100,20,0,1),rgb(200,20,0,1),rgb(100,20,0,1));}
+			
+			.tab-pane a{color:white;
+					text-decoration:none;
+					}
+			.tab-pane:hover a{color:white;
+					text-decoration:none;
+					}
+			
+			
+			@media only screen and (min-width:768px){
+			.hdr-box{margin:375px auto auto auto;}
+			.fttr-list-cont{display:block;}
+			.fttr-nav{display:none;}
+			.pc-nav{display:block}
+			.mobile-nav{display:none;}
+			.tab-img{display:none;}
+			}
+			@media only screen and (min-width:1000px){
+			.tab-img{display:block;}}
+			
+			
+			
+		</style>
